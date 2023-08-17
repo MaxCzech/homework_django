@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Password generator</h1>
+
+<form action="password">
+    <select  name="length">
+        <option value="6">6 long</option>
+        <option value="7">7 long</option>
+        <option value="8">8 long</option>
+        <option value="9">9 long</option>
+        <option value="10">10 long</option>
+        <option value="11">11 long</option>
+        <option value="12" selected="selected">12 long</option>
+        <option value="13">13 long</option>
+        <option value="14">14 long</option>
+
+    </select>
+    <br>
+
+    <input type="checkbox" name="uppercase"> Upprecase
+<br>
+    <input type="checkbox" name="numbers"> Numbers
+<br>
+        <input type="checkbox" name="special"> Special
+<br>
+    <input type="submit" value="Generat Password">
+</form>
+
+{{ password }}
+</body>
+</html>
